@@ -4,7 +4,13 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				quicksand: ['Quicksand', 'sans-serif'],
+				'josefin-sans': ['"Josefin Sans"', 'sans-serif'],
+				montserrat: ['"Montserrat"', 'sans-serif']
+			}
+		}
 	},
 
 	plugins: [require('@tailwindcss/typography')]
