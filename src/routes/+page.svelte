@@ -82,7 +82,7 @@
 	};
 </script>
 
-<section in:fade={{ delay: 200 }} id="bannerSection" class="h-screen w-full overflow-hidden px-6 pb-6 pt-20 lg:px-12 lg:pb-12 lg:pt-28">
+<section in:fade={{ delay: 200 }} id="bannerSection" class="h-full min-h-screen w-full overflow-hidden px-6 pb-6 pt-20 lg:px-12 lg:pb-12 lg:pt-28">
 	<!-- svelte-ignore a11y_no_static_element_interactions -->
 	<!-- svelte-ignore a11y_mouse_events_have_key_events -->
 	<div onmouseleave={mouseleaveHandler} bind:this={bannerElements} class="relative flex gap-2 overflow-auto">

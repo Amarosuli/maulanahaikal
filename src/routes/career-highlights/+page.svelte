@@ -58,7 +58,7 @@
 			items: [
 				{
 					year: '2020 - Current',
-					title: 'Senior Aircraft Planner',
+					title: 'Aircraft Maintenance Planner',
 					company: 'PT. GMF Aero Asia Tbk., Jakarta',
 					jobdesc: ['Planning and scheduling for weekly and daily workload.', 'Perform document segregation and collecting for quality needs.', 'Deploy workload, ship jobcard and material to employee.', 'Reporting to any stakeholder for progress or any issue/event in production.']
 				},
