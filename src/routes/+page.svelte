@@ -4,6 +4,9 @@
 	import type { MouseEventHandler } from 'svelte/elements';
 	import { fade, fly, slide } from 'svelte/transition';
 	import ArrowRight from 'lucide-svelte/icons/arrow-right';
+	import LinkedIn from 'lucide-svelte/icons/linkedin';
+	import Email from 'lucide-svelte/icons/mailbox';
+	import Instagram from 'lucide-svelte/icons/instagram';
 
 	const hoverTriggered = (e: MouseEvent) => {
 		// console.log(e);
@@ -129,8 +132,8 @@
 		</div>
 	</div>
 	<div class="hidden w-full items-center justify-around px-12 lg:mt-24 lg:flex">
-		<a class="p-3 font-semibold underline underline-offset-4" href="https://instagram.com/maulana.haikal">Instagram</a>
-		<a class="p-3 font-semibold underline underline-offset-4" href="mailto:i.lana@ymail.com">Email</a>
-		<a class="p-3 font-semibold underline underline-offset-4" href="https://www.linkedin.com/in/maulana-haikal-997a06b0/">LinkedIn</a>
+		<a class="flex flex-col items-center border border-orange-300 bg-orange-100 px-7 py-3 font-quicksand text-lg font-bold transition-colors ease-in-out hover:bg-orange-200" href="https://instagram.com/maulana.haikal"><Instagram /> Instagram</a>
+		<a class="flex flex-col items-center border border-orange-300 bg-orange-100 px-7 py-3 font-quicksand text-lg font-bold transition-colors ease-in-out hover:bg-orange-200" href="mailto:i.lana@ymail.com"><Email /> Email</a>
+		<a class="flex flex-col items-center border border-orange-300 bg-orange-100 px-7 py-3 font-quicksand text-lg font-bold transition-colors ease-in-out hover:bg-orange-200" href="https://www.linkedin.com/in/maulana-haikal-997a06b0/"><LinkedIn /> LinkedIn</a>
 	</div>
 </section>

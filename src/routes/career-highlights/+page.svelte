@@ -74,9 +74,69 @@
 			sub: 'Certification',
 			items: [
 				{
-					year: '2020 - Current',
-					title: 'xxxxxx',
-					releaseBy: 'xxxxxx'
+					year: '30 Jan – 1 Feb 2023',
+					title: 'Project Management Basic',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
+				},
+				{
+					year: '30 Sep – 06 Oct 2022',
+					title: 'Training of Trainer',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
+				},
+				{
+					year: '16-17 Jun 2022',
+					title: 'SWIFT Demand & Supply',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
+				},
+				{
+					year: '08-10 Aug 2022',
+					title: 'SWIFT Complex Maintenance for Engine Owner',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
+				},
+				{
+					year: '18-20 Jul 2022',
+					title: 'SWIFT Complex Maintenance Production Control',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
+				},
+				{
+					year: '01-02 Aug 2022',
+					title: 'SWIFT Complex Maintenance Bench Inspection & NDT',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
+				},
+				{
+					year: '12-23 Apr 2021',
+					title: 'Basic Planning',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
+				},
+				{
+					year: '15-19 Feb 2021',
+					title: 'BTT (Baggage Towing Tractor Initial)',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
+				},
+				{
+					year: '24 Feb – 03 Mar 2021',
+					title: 'FLT (Forklift Initial)',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
+				},
+				{
+					year: '02-04 Feb 2021',
+					title: 'SWIFT Complex Maintenance Production',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
+				},
+				{
+					year: '09-13 Mar 2020',
+					title: 'Basic Inspection for Shop',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
+				},
+				{
+					year: '03-09 Jun 2020',
+					title: 'CFM56-5B Series Basic Engine',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
+				},
+				{
+					year: '24-28 Feb 2020',
+					title: 'CFM56-7 Series Basic Engine',
+					releaseBy: 'PT. GMF Aero Asia Tbk.'
 				}
 			]
 		},
@@ -114,7 +174,7 @@
 				<div class="mt-6 space-y-2 lg:w-2/3">
 					{#each sum.items as item}
 						<div class="flex w-full gap-6">
-							<h1 class="w-1/6 text-xs font-bold lg:w-1/4 lg:text-base">{item.year}</h1>
+							<h1 class="w-1/6 text-xs font-bold lg:w-2/4 lg:text-base">{item.year}</h1>
 							<div class="w-full lg:w-3/4">
 								<!-- <img class="h-36" src="/binus_logo.png" alt="kophi_kaltim_logo" /> -->
 								<h1 class="text-sm font-bold lg:text-base">{item.title}</h1>
@@ -131,7 +191,7 @@
 				<div class="mt-6 space-y-2 lg:w-2/3">
 					{#each sum.items as item}
 						<div class="flex w-full gap-6">
-							<h1 class="w-1/6 text-xs font-bold lg:w-1/4 lg:text-base">{item.year}</h1>
+							<h1 class="w-1/6 text-xs font-bold lg:w-2/4 lg:text-base">{item.year}</h1>
 							<div class="w-full lg:w-3/4">
 								<h1 class="text-sm font-bold lg:text-base">{item.title}</h1>
 								<p class="text-xs font-semibold lg:text-sm">{item.company}</p>
@@ -151,10 +211,10 @@
 				<div class="mt-6 space-y-2 lg:w-2/3">
 					{#each sum.items as item}
 						<div class="flex w-full gap-6">
-							<h1 class="w-1/6 text-xs font-bold lg:w-1/4 lg:text-base">{item.year}</h1>
+							<h1 class="w-1/6 text-xs font-bold lg:w-2/4 lg:text-base">{item.year}</h1>
 							<div class="w-full lg:w-3/4">
 								<h1 class="text-sm font-bold lg:text-base">{item.title}</h1>
-								<p class="text-xs font-semibold lg:text-sm">{item.releaseBy}</p>
+								<p class="text-xs font-semibold lg:text-sm">Release By {item.releaseBy}</p>
 							</div>
 						</div>
 					{/each}
@@ -166,7 +226,7 @@
 				<div class="mt-6 space-y-2 lg:w-2/3">
 					{#each sum.items as item}
 						<div class="flex w-full gap-6">
-							<h1 class="w-1/6 text-xs font-bold lg:w-1/4 lg:text-base">{item.year}</h1>
+							<h1 class="w-1/6 text-xs font-bold lg:w-2/4 lg:text-base">{item.year}</h1>
 							<div class="w-full lg:w-3/4">
 								<!-- <img class="h-36" src="/binus_logo.png" alt="kophi_kaltim_logo" /> -->
 								<h1 class="text-sm font-bold lg:text-base">{item.title}</h1>
